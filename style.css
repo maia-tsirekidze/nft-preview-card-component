@@ -3,13 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+
 body{
+    font-family: 'Outfit', sans-serif;
   background-color: #0d192c;  
 }
 .conteiner{
     
     width: 350px;
-    margin:20px auto;
+    margin:45px auto;
     border-radius: 15px;
     background-color: #15263f;
     color: white;
@@ -21,13 +24,29 @@ body{
 }
 .conteiner h1{
     max-width: 100%;
-   
+    font-size: 22px;
+    line-height: 28px;
+    color:white;
    padding:0 24px ;
 }
 .conteiner p{
 max-width: 100%;
 padding:16px 24px 0 24px ;
-
+font-size: 18px;
+font-weight: 300;
+line-height: 26px;
+color:#8bacd9;
+}
+.display-flex p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #00fff8;
+}
+.display-flex :nth-child(2){
+    color:#8bacd9;
+}
+.fa-brands{
+color: #00fff8;
 }
 .display-flex{
     max-width: 100%;
@@ -35,7 +54,7 @@ padding:16px 24px 0 24px ;
 
     display: grid;
 grid-auto-flow: column;
-    gap: 53px;
+    gap: 50px;
 }
 .conteiner .line{
    max-width: 100% ;
